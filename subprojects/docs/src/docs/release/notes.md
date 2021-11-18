@@ -15,7 +15,8 @@ Include only their name, impactful features should be called out separately belo
 [Piyush Mor](https://github.com/piyushmor),
 [Róbert Papp](https://github.com/TWiStErRob),
 [Piyush Mor](https://github.com/piyushmor),
-[Ned Twigg](https://github.com/nedtwigg).
+[Ned Twigg](https://github.com/nedtwigg),
+[Marcin Mielnicki](https://github.com/platan).
 
 ## Upgrade instructions
 
@@ -119,6 +120,14 @@ See [the documentation](userguide/kotlin_dsl.html#type-safe-accessors) for detai
 With this release, the generation of the dependency verification file has been improved to produce stable output.
 This allows you to leverage generation as an update strategy for the verification metadata when dependencies change in your project.
 Have a look at [the documentation](userguide/dependency_verification.html#sec:verification-update) for more details.
+
+### Gradle Option Improvements
+
+#### Additional Daemon Debug Options
+
+Additional options were added for use with `-Dorg.gradle.debug=true`. These allow specification of the port, server mode, and suspend mode.
+
+See [the documentation](userguide/command_line_interface.html#sec:command_line_debugging) for details.
 
 
 <!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
